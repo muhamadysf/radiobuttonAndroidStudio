@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah yang Ditempuh di Semester ini Jurusan Teknik Informatika ITBU Jakarta!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="21dp"/>
+
+    <RadioGroup
+        android:layout_below="@+id/mata"
+        android:id="@+id/opsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <RadioButton
+            android:id="@+id/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pemrograman Android"/>
+
+        <RadioButton
+            android:id="@+id/jaringan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pemrograman Jaringan"/>
+        <RadioButton
+            android:id="@+id/operasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pemrograman Operasi"/>
+    </RadioGroup>
+
+</RelativeLayout>
